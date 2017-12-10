@@ -11,16 +11,15 @@ class Repository implements Repositorable{
     Map<String,Crop> crop = new HashMap<>();
     //купить рассаду
     public void buySeedling(String name, int count){
-        //shop = new ShopDecorator(new Shop());
-        shop.sell(name, count);
-        this.bonus-=shop.getAssortment().get(name).price*count;
-        if (seedling.get(name)!=null)
-            seedling.get(name).count+=count;
-        else {
-            Seedling s = new Seedling(shop.getAssortment().get(name).name,shop.getAssortment().get(name).unit,shop.getAssortment().get(name).count,shop.getAssortment().get(name).price, shop.getAssortment().get(name).ripeness,shop.getAssortment().get(name).plods_weight);
-            seedling.put(name, s);
-            seedling.get(name).count=count;
-        }
+            shop.sell(name, count);
+            this.bonus -= shop.getAssortment().get(name).price * count;
+            if (seedling.get(name) != null)
+                seedling.get(name).count += count;
+            else {
+                Seedling s = new Seedling(shop.getAssortment().get(name).name, shop.getAssortment().get(name).unit, shop.getAssortment().get(name).count, shop.getAssortment().get(name).price, shop.getAssortment().get(name).ripeness, shop.getAssortment().get(name).plods_weight);
+                seedling.put(name, s);
+                seedling.get(name).count = count;
+            }
     }
     //продать урожай
     public void sellCrop(String name,Double count){
