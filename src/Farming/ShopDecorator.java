@@ -1,9 +1,9 @@
 package Farming;
 
-abstract class ShopDecorator implements Shopable{
-    Shopable component;
+abstract class ShopDecorator implements Shop{
+    Shop component;
 
-    public ShopDecorator(Shopable component) {
+    public ShopDecorator(Shop component) {
         this.component = component;
     }
     public void sell(String name, int count){

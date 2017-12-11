@@ -1,5 +1,5 @@
 package Farming;
 
-abstract class SeedlingCreator{
-    abstract Seedling creatSeedling(String name,Unit unit, double count,int price,  int ripeness,double plods_weight);
+public abstract class SeedlingCreator{
+    public abstract Seedling creatSeedling(String name,Unit unit, double count,int price,  int ripeness,double plods_weight);
 }

@@ -15,8 +15,8 @@ import java.io.FileReader;
 import java.util.*;
 //класс Ферма
 public class Farm {
-    Gardenable garden;
-    Repositorable repository;
+    Garden garden;
+    Repository repository;
 
     public static void main(String[] args) throws Exception {
         Console console = new Console();

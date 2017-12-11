@@ -1,9 +1,11 @@
 package Farming;
-import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
+import Farming.impl.GardenImpl;
+import Farming.impl.RepositoryImpl;
+import Farming.impl.ShopImpl;
 
 import java.util.Scanner;
 
-import static Farming.Farm.getClasses;
+import static Farming.Farm.*;
 
 public class Console {
     private Scanner in = new Scanner(System.in);
@@ -35,10 +37,10 @@ public class Console {
     }
     void readConsole() throws Exception {
             Farm farm = new Farm();
-            farm.repository = new Repository();
-            farm.garden = new Garden(farm.repository);
+            farm.repository = new RepositoryImpl();
+            farm.garden = new GardenImpl(farm.repository);
             farm.repository.setBonus(100);
-            farm.repository.setShop(new Shop());
+            farm.repository.setShop(new ShopImpl());
             farm.repository.getShop().fileRead(farm.repository.getShop());
             Class[] list = getClasses("Farming");
             System.out.println("Для вас доступен данный тип рассады:");

@@ -1,8 +1,8 @@
 package Farming;
 
-class Crop extends Product{
+public class Crop extends Product{
 
-    Crop(String name, Unit unit, double count, int price) {
+    public Crop(String name, Unit unit, double count, int price) {
         super(name, unit, count, price);
     }
 

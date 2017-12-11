@@ -1,3 +1,3 @@
 package Farming;
 
-enum Unit{KG,ST}
+public enum Unit{KG,ST}

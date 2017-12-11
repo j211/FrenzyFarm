@@ -1,12 +1,12 @@
 package Farming;
 
-abstract class Product {
-    String name;
-    Unit unit;
-    double count;
-    int price;
+public abstract class Product {
+    public String name;
+    public Unit unit;
+    public double count;
+    public int price;
 
-    public Product(String name,Unit unit,/* String unit,*/ double count, int price) {
+    public Product(String name,Unit unit, double count, int price) {
         this.name = name;
         this.unit = unit;
         this.count = count;
