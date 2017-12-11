@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Farming</OriginalElement>
+  <nodes>
+    <node x="1905.9544700647245" y="661.0">Farming.PotatoSeedling</node>
+    <node x="153.94411407766938" y="164.0">Farming.Product</node>
+    <node x="1273.1580299352752" y="0.0">Farming.Unit</node>
+    <node x="699.1163632686084" y="752.0">Farming.Shopable</node>
+    <node x="5.212500000000205" y="1620.0">Farming.Garden</node>
+    <node x="308.49136326860844" y="1631.0">Farming.Farm</node>
+    <node x="1761.9544700647245" y="785.0">Farming.PotatoSeedlingCreator</node>
+    <node x="109.38161407766938" y="984.5">Farming.Crop</node>
+    <node x="1039.2774474110029" y="940.0">Farming.Shop</node>
+    <node x="1570.7044700647245" y="661.0">Farming.TomatSeedling</node>
+    <node x="999.8436893203886" y="421.0">Farming.Seedling</node>
+    <node x="737.6211367313911" y="973.0">Farming.ShopDecorator</node>
+    <node x="349.37560679611624" y="1962.0">Farming.Console</node>
+    <node x="165.11636326860844" y="1161.0">Farming.Repositorable</node>
+    <node x="624.0941140776694" y="1521.0">Farming.Repository</node>
+    <node x="1323.9544700647245" y="785.0">Farming.TomatSeedlingCreator</node>
+    <node x="1166.7044700647245" y="650.0">Farming.SeedlingCreator</node>
+    <node x="2014.4544700647245" y="465.5">Farming.Product_Type</node>
+    <node x="451.1163632686085" y="1227.0">Farming.Gardenable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Farming.TomatSeedlingCreator" target="Farming.SeedlingCreator">
+      <point x="-156.75" y="-26.0" />
+      <point x="1376.2044700647245" y="732.0" />
+      <point x="1358.2044700647245" y="732.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Farming.Repositorable" target="Farming.Shopable">
+      <point x="33.25" y="-125.0" />
+      <point x="331.36636326860844" y="1131.0" />
+      <point x="393.6941140776694" y="1131.0" />
+      <point x="393.6941140776694" y="920.0" />
+      <point x="724.6163632686084" y="920.0" />
+      <point x="-178.5" y="59.0" />
+    </edge>
+    <edge source="Farming.Seedling" target="Farming.Product">
+      <point x="-63.33333333333326" y="-59.5" />
+      <point x="1031.5103559870554" y="401.0" />
+      <point x="270.8191140776694" y="401.0" />
+      <point x="23.375" y="103.5" />
+    </edge>
+    <edge source="Farming.TomatSeedling" target="Farming.Seedling">
+      <point x="-16.25" y="-15.0" />
+      <point x="1619.4544700647245" y="580.0" />
+      <point x="1158.177022653722" y="580.0" />
+      <point x="63.33333333333326" y="59.5" />
+    </edge>
+    <edge source="Farming.Farm" target="Farming.Gardenable">
+      <point x="64.25" y="-70.5" />
+      <point x="501.24136326860844" y="1501.0" />
+      <point x="542.6163632686084" y="1501.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+    <edge source="Farming.Shop" target="Farming.Shopable">
+      <point x="-181.33333333333348" y="-70.5" />
+      <point x="1061.9441140776694" y="920.0" />
+      <point x="1030.6163632686084" y="920.0" />
+      <point x="127.5" y="59.0" />
+    </edge>
+    <edge source="Farming.Console" target="Farming.Farm">
+      <point x="-68.75" y="-103.5" />
+      <point x="390.62560679611624" y="1932.0" />
+      <point x="340.61636326860844" y="1932.0" />
+      <point x="-96.375" y="70.5" />
+    </edge>
+    <edge source="Farming.Repository" target="Farming.Crop">
+      <point x="-39.89999999999998" y="-180.5" />
+      <point x="717.1941140776694" y="1461.0" />
+      <point x="655.6163632686084" y="1461.0" />
+      <point x="655.6163632686084" y="1101.0" />
+      <point x="247.08161407766943" y="1101.0" />
+      <point x="61.200000000000045" y="26.0" />
+    </edge>
+    <edge source="Farming.Shop" target="Farming.Seedling">
+      <point x="0.0" y="-70.5" />
+      <point x="1243.2774474110029" y="900.0" />
+      <point x="1156.2044700647245" y="900.0" />
+      <point x="1156.2044700647245" y="610.0" />
+      <point x="1120.177022653722" y="610.0" />
+      <point x="25.333333333333258" y="59.5" />
+    </edge>
+    <edge source="Farming.Product" target="Farming.Unit">
+      <point x="-46.75" y="-103.5" />
+      <point x="200.69411407766938" y="114.0" />
+      <point x="1288.1580299352752" y="114.0" />
+      <point x="-21.0" y="37.0" />
+    </edge>
+    <edge source="Farming.TomatSeedlingCreator" target="Farming.Unit">
+      <point x="-52.25" y="-26.0" />
+      <point x="1480.7044700647245" y="732.0" />
+      <point x="1560.2044700647245" y="732.0" />
+      <point x="1560.2044700647245" y="134.0" />
+      <point x="1318.1580299352752" y="134.0" />
+      <point x="9.0" y="37.0" />
+    </edge>
+    <edge source="Farming.SeedlingCreator" target="Farming.Unit">
+      <point x="95.75000000000006" y="-26.0" />
+      <point x="1453.9544700647245" y="144.0" />
+      <point x="1312.1580299352752" y="144.0" />
+      <point x="3.0" y="37.0" />
+    </edge>
+    <edge source="Farming.SeedlingCreator" target="Farming.Seedling">
+      <point x="-95.75" y="-26.0" />
+      <point x="1262.4544700647245" y="600.0" />
+      <point x="1132.8436893203886" y="600.0" />
+      <point x="38.0" y="59.5" />
+    </edge>
+    <edge source="Farming.Seedling" target="Farming.Unit">
+      <point x="63.33333333333326" y="-59.5" />
+      <point x="1158.177022653722" y="401.0" />
+      <point x="1180.9496966019417" y="401.0" />
+      <point x="1180.9496966019417" y="144.0" />
+      <point x="1306.1580299352752" y="144.0" />
+      <point x="-3.0" y="37.0" />
+    </edge>
+    <edge source="Farming.ShopDecorator" target="Farming.Shopable">
+      <point x="1.1368683772161603E-13" y="-37.5" />
+      <point x="830.1211367313913" y="920.0" />
+      <point x="826.6163632686084" y="920.0" />
+      <point x="-76.5" y="59.0" />
+    </edge>
+    <edge source="Farming.Garden" target="Farming.Unit">
+      <point x="-101.9375" y="-81.5" />
+      <point x="19.775000000000205" y="1501.0" />
+      <point x="0.0" y="1501.0" />
+      <point x="0.0" y="94.0" />
+      <point x="1276.1580299352752" y="94.0" />
+      <point x="-33.0" y="37.0" />
+    </edge>
+    <edge source="Farming.TomatSeedling" target="Farming.Product_Type">
+      <point x="48.75" y="-15.0" />
+      <point x="1684.4544700647245" y="620.0" />
+      <point x="2034.9544700647245" y="620.0" />
+      <point x="-41.0" y="15.0" />
+    </edge>
+    <edge source="Farming.Garden" target="Farming.Seedling">
+      <point x="-72.8125" y="-81.5" />
+      <point x="48.900000000000205" y="1491.0" />
+      <point x="11.0" y="1491.0" />
+      <point x="11.0" y="722.0" />
+      <point x="153.67886326860844" y="722.0" />
+      <point x="153.67886326860844" y="570.0" />
+      <point x="1006.1770226537219" y="570.0" />
+      <point x="-88.66666666666674" y="59.5" />
+    </edge>
+    <edge source="Farming.Shop" target="Farming.SeedlingCreator">
+      <point x="45.33333333333326" y="-70.5" />
+      <point x="1288.610780744336" y="890.0" />
+      <point x="1223.552022653722" y="890.0" />
+      <point x="1223.552022653722" y="732.0" />
+      <point x="1230.5378033980578" y="732.0" />
+      <point x="-127.66666666666674" y="26.0" />
+    </edge>
+    <edge source="Farming.Repositorable" target="Farming.Crop">
+      <point x="-99.75" y="-125.0" />
+      <point x="198.36636326860844" y="1141.0" />
+      <point x="185.88161407766938" y="1141.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Farming.Repository" target="Farming.Repositorable">
+      <point x="-119.69999999999993" y="-180.5" />
+      <point x="637.3941140776694" y="1491.0" />
+      <point x="397.86636326860844" y="1491.0" />
+      <point x="99.75" y="125.0" />
+    </edge>
+    <edge source="Farming.Repositorable" target="Farming.Seedling">
+      <point x="-33.25" y="-125.0" />
+      <point x="264.86636326860844" y="1121.0" />
+      <point x="382.6941140776694" y="1121.0" />
+      <point x="382.6941140776694" y="590.0" />
+      <point x="1031.5103559870554" y="590.0" />
+      <point x="-63.33333333333326" y="59.5" />
+    </edge>
+    <edge source="Farming.Garden" target="Farming.Repositorable">
+      <point x="43.6875" y="-81.5" />
+      <point x="165.4000000000002" y="1481.0" />
+      <point x="198.36636326860844" y="1481.0" />
+      <point x="-99.75" y="125.0" />
+    </edge>
+    <edge source="Farming.Console" target="Farming.Garden">
+      <point x="-96.25" y="-103.5" />
+      <point x="363.12560679611624" y="1942.0" />
+      <point x="121.7125000000002" y="1942.0" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="Farming.Garden" target="Farming.Crop">
+      <point x="14.5625" y="-81.5" />
+      <point x="136.2750000000002" y="1491.0" />
+      <point x="97.93786407766947" y="1491.0" />
+      <point x="97.93786407766947" y="1141.0" />
+      <point x="155.28161407766936" y="1141.0" />
+      <point x="-30.600000000000023" y="26.0" />
+    </edge>
+    <edge source="Farming.Shop" target="Farming.PotatoSeedlingCreator">
+      <point x="136.0" y="-70.5" />
+      <point x="1379.2774474110029" y="910.0" />
+      <point x="1970.9544700647245" y="910.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Farming.Repositorable" target="Farming.Shop">
+      <point x="99.75" y="-125.0" />
+      <point x="397.86636326860844" y="1141.0" />
+      <point x="1107.2774474110029" y="1141.0" />
+      <point x="-136.0" y="70.5" />
+    </edge>
+    <edge source="Farming.Console" target="Farming.Repository">
+      <point x="41.25" y="-103.5" />
+      <point x="500.62560679611624" y="1922.0" />
+      <point x="757.0941140776694" y="1922.0" />
+      <point x="0.0" y="180.5" />
+    </edge>
+    <edge source="Farming.Shop" target="Farming.Unit">
+      <point x="181.33333333333326" y="-70.5" />
+      <point x="1424.610780744336" y="920.0" />
+      <point x="2190.454470064725" y="920.0" />
+      <point x="2190.454470064725" y="94.0" />
+      <point x="1342.1580299352752" y="94.0" />
+      <point x="33.0" y="37.0" />
+    </edge>
+    <edge source="Farming.TomatSeedlingCreator" target="Farming.TomatSeedling">
+      <point x="156.75" y="-26.0" />
+      <point x="1689.7044700647245" y="732.0" />
+      <point x="1668.2044700647245" y="732.0" />
+      <point x="32.5" y="15.0" />
+    </edge>
+    <edge source="Farming.TomatSeedling" target="Farming.Unit">
+      <point x="16.25" y="-15.0" />
+      <point x="1651.9544700647245" y="124.0" />
+      <point x="1324.1580299352752" y="124.0" />
+      <point x="15.0" y="37.0" />
+    </edge>
+    <edge source="Farming.Farm" target="Farming.Console">
+      <point x="32.125" y="70.5" />
+      <point x="469.11636326860844" y="1902.0" />
+      <point x="445.62560679611624" y="1902.0" />
+      <point x="-13.75" y="-103.5" />
+    </edge>
+    <edge source="Farming.Console" target="Farming.Shop">
+      <point x="68.75" y="-103.5" />
+      <point x="528.1256067961162" y="1932.0" />
+      <point x="1264.0378033980578" y="1932.0" />
+      <point x="1264.0378033980578" y="1141.0" />
+      <point x="1379.2774474110029" y="1141.0" />
+      <point x="136.0" y="70.5" />
+    </edge>
+    <edge source="Farming.Crop" target="Farming.Unit">
+      <point x="-51.0" y="-26.0" />
+      <point x="134.88161407766938" y="920.0" />
+      <point x="122.38161407766938" y="920.0" />
+      <point x="122.38161407766938" y="104.0" />
+      <point x="1282.1580299352752" y="104.0" />
+      <point x="-27.0" y="37.0" />
+    </edge>
+    <edge source="Farming.Repository" target="Farming.Gardenable">
+      <point x="-93.09999999999991" y="-180.5" />
+      <point x="663.9941140776695" y="1481.0" />
+      <point x="603.6163632686084" y="1481.0" />
+      <point x="61.0" y="59.0" />
+    </edge>
+    <edge source="Farming.Shop" target="Farming.TomatSeedlingCreator">
+      <point x="90.66666666666674" y="-70.5" />
+      <point x="1333.9441140776694" y="900.0" />
+      <point x="1532.9544700647245" y="900.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="Farming.PotatoSeedlingCreator" target="Farming.PotatoSeedling">
+      <point x="52.25" y="-26.0" />
+      <point x="2023.2044700647245" y="732.0" />
+      <point x="2003.4544700647245" y="732.0" />
+      <point x="32.5" y="15.0" />
+    </edge>
+    <edge source="Farming.PotatoSeedling" target="Farming.Seedling">
+      <point x="-48.74999999999977" y="-15.0" />
+      <point x="1922.2044700647248" y="570.0" />
+      <point x="1170.8436893203886" y="570.0" />
+      <point x="76.0" y="59.5" />
+    </edge>
+    <edge source="Farming.Shopable" target="Farming.Unit">
+      <point x="-102.0" y="-59.0" />
+      <point x="801.1163632686084" y="722.0" />
+      <point x="351.4441140776694" y="722.0" />
+      <point x="351.4441140776694" y="134.0" />
+      <point x="1300.1580299352752" y="134.0" />
+      <point x="-9.0" y="37.0" />
+    </edge>
+    <edge source="Farming.PotatoSeedling" target="Farming.Unit">
+      <point x="16.250000000000227" y="-15.0" />
+      <point x="1987.2044700647248" y="114.0" />
+      <point x="1330.1580299352752" y="114.0" />
+      <point x="21.0" y="37.0" />
+    </edge>
+    <edge source="Farming.Repository" target="Farming.Seedling">
+      <point x="13.300000000000068" y="-180.5" />
+      <point x="770.3941140776694" y="1441.0" />
+      <point x="677.6163632686084" y="1441.0" />
+      <point x="677.6163632686084" y="610.0" />
+      <point x="1056.8436893203886" y="610.0" />
+      <point x="-38.0" y="59.5" />
+    </edge>
+    <edge source="Farming.Crop" target="Farming.Product">
+      <point x="0.0" y="-26.0" />
+      <point x="185.88161407766938" y="920.0" />
+      <point x="171.38161407766938" y="920.0" />
+      <point x="171.38161407766938" y="401.0" />
+      <point x="177.31911407766938" y="401.0" />
+      <point x="-70.125" y="103.5" />
+    </edge>
+    <edge source="Farming.Repository" target="Farming.Shopable">
+      <point x="66.5" y="-180.5" />
+      <point x="823.5941140776694" y="1481.0" />
+      <point x="933.1211367313911" y="1481.0" />
+      <point x="933.1211367313911" y="920.0" />
+      <point x="928.6163632686084" y="920.0" />
+      <point x="25.5" y="59.0" />
+    </edge>
+    <edge source="Farming.PotatoSeedling" target="Farming.Product_Type">
+      <point x="48.75000000000023" y="-15.0" />
+      <point x="2019.7044700647248" y="630.0" />
+      <point x="2075.954470064725" y="630.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="Farming.PotatoSeedlingCreator" target="Farming.SeedlingCreator">
+      <point x="-156.75" y="-26.0" />
+      <point x="1814.2044700647245" y="722.0" />
+      <point x="1485.8711367313913" y="722.0" />
+      <point x="127.66666666666674" y="26.0" />
+    </edge>
+    <edge source="Farming.Shopable" target="Farming.Seedling">
+      <point x="102.0" y="-59.0" />
+      <point x="1005.1163632686084" y="630.0" />
+      <point x="1082.177022653722" y="630.0" />
+      <point x="-12.666666666666742" y="59.5" />
+    </edge>
+    <edge source="Farming.Repository" target="Farming.Shop">
+      <point x="119.70000000000005" y="-180.5" />
+      <point x="876.7941140776694" y="1501.0" />
+      <point x="1253.0378033980578" y="1501.0" />
+      <point x="1253.0378033980578" y="1141.0" />
+      <point x="1243.2774474110029" y="1141.0" />
+      <point x="0.0" y="70.5" />
+    </edge>
+    <edge source="Farming.Farm" target="Farming.Repositorable">
+      <point x="-64.25" y="-70.5" />
+      <point x="372.74136326860844" y="1491.0" />
+      <point x="331.36636326860844" y="1491.0" />
+      <point x="33.25" y="125.0" />
+    </edge>
+    <edge source="Farming.Console" target="Farming.Product_Type">
+      <point x="96.25" y="-103.5" />
+      <point x="555.6256067961162" y="1942.0" />
+      <point x="2201.454470064725" y="1942.0" />
+      <point x="2201.454470064725" y="630.0" />
+      <point x="2116.954470064725" y="630.0" />
+      <point x="41.0" y="15.0" />
+    </edge>
+    <edge source="Farming.PotatoSeedlingCreator" target="Farming.Unit">
+      <point x="156.75" y="-26.0" />
+      <point x="2127.704470064725" y="732.0" />
+      <point x="2147.954470064725" y="732.0" />
+      <point x="2147.954470064725" y="104.0" />
+      <point x="1336.1580299352752" y="104.0" />
+      <point x="27.0" y="37.0" />
+    </edge>
+    <edge source="Farming.Garden" target="Farming.Gardenable">
+      <point x="101.9375" y="-81.5" />
+      <point x="223.6500000000002" y="1501.0" />
+      <point x="481.6163632686085" y="1501.0" />
+      <point x="-61.0" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3294117647058824" x="276.4358974358968" y="935.8974358974357" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
